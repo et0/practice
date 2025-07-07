@@ -5,3 +5,4 @@
 | 002 | Передача данных через канал | chan, nobuf |
 | 003 | Синхронизация двух горутин (Pipeline) | chan, nobuf |
 | 004 | Работа с несколькими горутинами (Worker Pool) | chan, buf |
+| 005 | Конкурентный доступ к данным (Mutex) | mutex, race condition |
