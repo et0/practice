@@ -6,3 +6,4 @@
 | 003 | Синхронизация двух горутин (Pipeline) | chan, nobuf |
 | 004 | Работа с несколькими горутинами (Worker Pool) | chan, buf |
 | 005 | Конкурентный доступ к данным (Mutex) | mutex, race condition |
+| 006 | Pipeline с фильтрацией | deadlock |
