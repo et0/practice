@@ -4,9 +4,9 @@ import "fmt"
 
 func generate(readCh chan<- int) {
 	for i := 10; i <= 15; i++ {
-		readCh <- i
+		readCh <- i // записываем в канал
 	}
-	close(readCh)
+	close(readCh) // закрываем канал, т.к. записей в него больше не буден
 }
 
 func double(readCh <-chan int, writeCh chan<- int) {
