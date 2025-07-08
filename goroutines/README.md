@@ -8,3 +8,4 @@
 | 005 | Конкурентный доступ к данным (Mutex) | mutex, race condition |
 | 006 | Pipeline с фильтрацией | deadlock |
 | 007 | Остановка горутин по сигналу (Context) | context |
+| 008 | Остановка горутин по сигналу (Context) | fan-in, fan-out, chan, buf |
