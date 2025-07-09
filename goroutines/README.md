@@ -10,3 +10,4 @@
 | 007 | Остановка горутин по сигналу (Context) | context |
 | 008 | Fan-out, Fan-in | fan-in, fan-out, chan, buf |
 | 009 | Ограничение скачивания файлов (Semaphore) | chan, buf, semaphore |
+| 010 | Ограничение запросов к API (Semaphore) | chan, buf, semaphore |
