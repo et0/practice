@@ -4,8 +4,9 @@
 | 001 | Простой вывод чисел в горутине | WaitGroup |
 | 002 | Передача данных через канал | chan, nobuf |
 | 003 | Синхронизация двух горутин (Pipeline) | chan, nobuf |
-| 004 | Работа с несколькими горутинами (Worker Pool) | chan, buf |
+| 004 | Работа с несколькими горутинами (Worker Pool) | chan, buf, wp |
 | 005 | Конкурентный доступ к данным (Mutex) | mutex, race condition |
 | 006 | Pipeline с фильтрацией | deadlock |
 | 007 | Остановка горутин по сигналу (Context) | context |
-| 008 | Остановка горутин по сигналу (Context) | fan-in, fan-out, chan, buf |
+| 008 | Fan-out, Fan-in | fan-in, fan-out, chan, buf |
+| 009 | Ограничение скачивания файлов (Semaphore) | chan, buf, semaphore |
