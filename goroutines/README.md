@@ -13,3 +13,4 @@
 | 010 | Ограничение запросов к API (Semaphore) | chan, buf, semaphore |
 | 011 | Параллельная обработка данных (Worker Pool, Errgroup) | chan, buf, wp, errg |
 | 012 | Ограниченный пул рабочих (Worker Pool) с ожиданием задач | sync.Cond, wp |
+| 013 | Одна горутина (main) пишет в канал, две горутины читают из канала числа | chan, nobuf, WaitGroup | 
