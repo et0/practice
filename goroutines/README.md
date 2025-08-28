@@ -14,4 +14,4 @@
 | 011 | Параллельная обработка данных (Worker Pool, Errgroup) | chan, buf, wp, errg |
 | 012 | Ограниченный пул рабочих (Worker Pool) с ожиданием задач | sync.Cond, wp |
 | 013 | Одна горутина (main) пишет в канал, две горутины читают из канала числа | chan, nobuf, WaitGroup |
-| [014](goroutines/008/008.go) | Слияние каналов | chan, nobuf, WaitGroup, fan-in |
+| [014](008/008.go) | Слияние каналов | chan, nobuf, WaitGroup, fan-in |
